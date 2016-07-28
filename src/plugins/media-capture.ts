@@ -28,7 +28,7 @@ declare var navigator: any;
 })
 export class MediaCapture {
   /**
-   * The audio recording formats supported by the device.
+   * The recording image sizes and formats supported by the device.
    * @returns {ConfigurationData[]}
    */
   @CordovaProperty
@@ -37,7 +37,7 @@ export class MediaCapture {
   }
 
   /**
-   * The recording image sizes and formats supported by the device.
+   * The audio recording formats supported by the device.
    * @returns {ConfigurationData[]}
    */
   @CordovaProperty
